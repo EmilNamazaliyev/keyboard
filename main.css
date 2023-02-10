@@ -1,0 +1,31 @@
+.keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    background: #f2f2f2;
+}
+  
+.btns {
+    font-size: 2rem;
+    padding: .5em;
+    /* background: #06ce10; */
+    background: black;
+    border: 4px solid #190781;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.btnActive {
+    position: relative;
+    top: 1.5px;
+}
+
+.trio {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 50px;  /*for bg color*/
+    column-gap: 5px;
+}
